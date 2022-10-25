@@ -1,0 +1,27 @@
+.filter-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.filter-buttons li{
+    padding: 5px 20px;
+    background-color: var(--grey6);
+    border-radius: var(--radius);
+    color: var(--grey2);
+    font-weight: var(--weight1);
+    font-size: var(--size4);
+    cursor: pointer;
+}
+
+.filter-buttons li:hover{
+    background-color: var(--grey5);
+}
+
+.filter-buttons .emphasis{
+    background-color: var(--brand1);
+    color: var(--grey7);
+}
+
+.filter-buttons .emphasis:hover{
+    background-color: var(--brand2);
+}

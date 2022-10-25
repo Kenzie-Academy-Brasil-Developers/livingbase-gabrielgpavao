@@ -1,0 +1,39 @@
+.main-list{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 47%;
+    margin-bottom: 80px;
+}
+
+.card img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.card h2{
+    margin-bottom: 16px;
+    font-weight: var(--weight1);
+    font-size: var(--size3);
+}
+
+.card p{
+    margin-bottom: 16px;
+    font-weight: var(--weight3);
+    font-size: var(--size4);
+    color: var(--grey2);
+}
+
+.card a{
+    font-weight: var(--weight1);
+    font-size: var(--size4);
+    color: var(--brand1);
+}
+
+.card a:hover{
+    text-decoration: underline;
+}

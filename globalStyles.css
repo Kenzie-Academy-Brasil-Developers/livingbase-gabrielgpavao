@@ -23,6 +23,8 @@ time, mark, audio, video, button, input, textarea {
   text-decoration: none;
   list-style: none;
   font-family: 'Inter', sans-serif;
+  color: var(--grey-1);
+  line-height: 150%;
 }
 
 button{
@@ -30,20 +32,20 @@ button{
 }
 
 :root {
-  --grey-1: #212529;
-  --grey-2: #495057;
-  --grey-3: #808387;
-  --grey-4: #dee2e6;
-  --grey-5: #e9ecef;
-  --grey-6: #f1f3f5;
-  --grey-7: #f8f9fa;
-  --brand-1: #087f5b;
-  --brand-2: #099268;
+  --grey1: #212529;
+  --grey2: #495057;
+  --grey3: #808387;
+  --grey4: #dee2e6;
+  --grey5: #e9ecef;
+  --grey6: #f1f3f5;
+  --grey7: #f8f9fa;
+  --brand1: #087f5b;
+  --brand2: #099268;
 
-  --size-1: 2.5rem;
-  --size-2: 1.75rem;
-  --size-3: 1.25rem;
-  --size-4: 1rem;
+  --size1: 2.5rem;
+  --size2: 1.75rem;
+  --size3: 1.25rem;
+  --size4: 1rem;
 
   --weight1: 600;
   --weight2: 500;
@@ -53,7 +55,7 @@ button{
 }
 
 .container {
-  width: 40rem;
+  width: 70rem;
   max-width: 100%;
   padding: 0 1rem;
   margin: 0 auto;
