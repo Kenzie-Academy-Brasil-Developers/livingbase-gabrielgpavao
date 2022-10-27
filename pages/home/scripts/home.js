@@ -1,4 +1,4 @@
-import { getAllPosts } from "./requests.js";
+import { getAllPosts } from "/requests.js";
 
 
 function createPostLi (notice) {
@@ -39,3 +39,5 @@ async function renderPostsCards () {
 
 }
 renderPostsCards()
+
+
