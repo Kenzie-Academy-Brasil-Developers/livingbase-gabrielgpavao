@@ -5,6 +5,10 @@
     height: 90px;
 }
 
+.header img{
+    cursor: pointer;
+}
+
 .nav ul{
     display: flex;
     gap: 16px;
