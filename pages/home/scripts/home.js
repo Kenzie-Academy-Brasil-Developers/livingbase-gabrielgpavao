@@ -10,9 +10,11 @@ function createPostLi (notice) {
         <div>
             <h2>${notice.title}</h2>
             <p>${notice.description}</p>
-            <a href="/pages/post/post.html">Acessar conteúdo</a>
+            <a href="/pages/post/post.html" class="link-post">Acessar conteúdo</a>
         </div>
     `)
+    
+    
     return liPostCard
 }
 
@@ -24,8 +26,16 @@ async function renderPostsCards () {
     // console.log(news)
     news.forEach(( notice ) => {
         let li = createPostLi(notice)
+
         ulMainList.appendChild(li)
     });
+
+    let linksPosts = document.querySelectorAll('.link-post')
+    linksPosts.forEach((link) => {
+        link.addEventListener('click', (event) => {
+            localStorage.setItem('postId', event.path[2].id)
+        })
+    })
 
 }
 renderPostsCards()
