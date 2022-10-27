@@ -1,0 +1,15 @@
+.article figure{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.article figure img{
+    width: 100%;
+}
+
+.article p{
+    font-weight: var(--weight3);
+    font-size: var(--size4);
+    color: var(--grey2);
+    margin-top: 20px;
+}
