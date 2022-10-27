@@ -1,0 +1,17 @@
+.post-header{
+    background-color: var(--grey7);
+    padding: 70px 0;
+    margin-bottom: 50px;
+}
+
+.post-header div h1{
+    font-weight: var(--weight1);
+    font-size: var(--size1);
+    margin-bottom: 30px;
+}
+
+.post-header div p{
+    font-weight: var(--weight3);
+    font-size: var(--size4);
+    color: var(--grey2);
+}

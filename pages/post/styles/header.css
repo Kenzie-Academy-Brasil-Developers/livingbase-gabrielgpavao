@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 16px;
+}
+
+.nav ul li a{
+    display: inline-block;
+    padding: 5px 20px;
+    background: var(--grey7);
+    border-radius: var(--radius);
+    font-weight: var(--weight1);
+    font-size: var(--size4);
+    color: var(--grey2);
+}
+
+.nav ul li a:hover{
+    background: var(--grey6);
+}
