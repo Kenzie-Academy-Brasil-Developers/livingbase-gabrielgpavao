@@ -5,9 +5,10 @@ export async function getAllPosts() {
         method: 'GET'
     })
     const responseAllPosts = await requestGetAllPosts.json()
-    // console.log(requestGetAllPosts, responseAllPosts)
+    
     return responseAllPosts
 }
+
 
 export async function getPostById(id) {
     const requestGetPost = await fetch(baseUrl + '/' + id, {

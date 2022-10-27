@@ -18,13 +18,15 @@ function createPostLi (notice) {
     return liPostCard
 }
 
-async function renderPostsCards () {
+
+const news = await (await getAllPosts()).news
+
+export async function renderPostsCards (array) {
     const ulMainList = document.querySelector('.main-list')
     ulMainList.innerHTML = ''
 
-    const news = await (await getAllPosts()).news
-    // console.log(news)
-    news.forEach(( notice ) => {
+    
+    array.forEach(( notice ) => {
         let li = createPostLi(notice)
 
         ulMainList.appendChild(li)
@@ -38,6 +40,6 @@ async function renderPostsCards () {
     })
 
 }
-renderPostsCards()
+renderPostsCards(news)
 
 
