@@ -1,7 +1,7 @@
-const baseUrl = 'https://m2-api-living.herokuapp.com/news/'
+const baseUrl = 'https://m2-api-living.herokuapp.com/news'
 
-export async function getAllPosts() {
-    const requestGetAllPosts = await fetch (baseUrl, {
+export async function getAllPosts(currentPage) {
+    const requestGetAllPosts = await fetch (`${baseUrl}?page=${currentPage}`, {
         method: 'GET'
     })
     const responseAllPosts = await requestGetAllPosts.json()
