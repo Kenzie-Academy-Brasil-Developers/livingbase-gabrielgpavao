@@ -1,0 +1,46 @@
+.section-header{
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.header{
+    width: 46%
+}
+
+.header img{
+    margin-bottom: 60px;
+}
+
+.header h1{
+    font-weight: var(--weight1);
+    font-size: var(--size1);
+    margin-bottom: 24px;
+}
+
+.header h1 span{
+    color: var(--brand1);
+}
+
+.header p{
+    font-weight: var(--weight3);
+    font-size: var(--size4);
+    margin-bottom: 24px;
+}
+
+.header strong{
+    font-weight: var(--weight1);
+    font-size: var(--size4);
+}
+
+
+figure{
+    width: 51%;
+}
+
+figure img{
+    width: 100%;
+}
